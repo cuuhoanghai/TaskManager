@@ -19,8 +19,8 @@ const TaskInput = () => {
             <input type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Add new task"
-                className="flex-grow p-2 rounded border border-gray-300 focus:outline-none"
+                placeholder="Add new task !!!"
+                className="flex-grow p-2 rounded border border-gray-300 focus:outline-none placeholder-black/50"
             />
             <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded">
                 Add
