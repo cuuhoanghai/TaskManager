@@ -1,52 +1,70 @@
-# 📝 Task Manager App
+# Task Manager App
 
-A clean and responsive **Task Manager** built with **React + TypeScript**, designed to help users efficiently manage their daily tasks. This application allows users to create, edit, complete, and filter tasks, with local persistence and a smooth user experience.
+## 💡 Description
+A simple yet beautiful **Task Manager** application built with **React**, **TypeScript**, and **Tailwind CSS**.
 
----
+- Add, edit, delete tasks.
+- Filter tasks by **All**, **Completed**, or **Pending**.
+- Data is saved in **localStorage** (no lost tasks on refresh).
+- Support for **Dark/Light mode** toggle with beautiful icons.
+- Instant feedback with **Toast notifications**.
 
-## 🚀 Features
-
-- ✅ Add new tasks
-- 📝 Edit task title
-- ✅/❌ Mark task as complete/incomplete
-- 🗑 Delete tasks
-- 🔍 Filter by:
-  - All
-  - Completed
-  - Pending
-- 💾 Data persistence with `localStorage`
-- ⚡ Real-time UI updates (no reloads)
-- 🖥️ Fully responsive for desktop and mobile
-- 🎨 Visual cues for completed tasks (strikethrough text)
-- ✨ Simple animations using `framer-motion`
+Live Demo: [task-manager-classmethod.vercel.app](https://task-manager-classmethod.vercel.app/)
 
 ---
 
-## 🧑‍💻 Built With
+## 🔧 Setup Instructions
 
-- ⚛️ React + TypeScript
-- 🎨 Tailwind CSS
-- 🌐 React Context for global state management
-- 💾 localStorage for task persistence
-- 🎬 Framer Motion for animations
+### Requirements
+- Node.js >= 16
+- npm >= 8 (or yarn)
 
----
-
-## 📦 Installation
-
-> Ensure you have **Node.js (>=16)** and **npm** or **yarn** installed.
-
+### Steps
+1. Clone the repository:
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/task-manager-app.git
-cd task-manager-app
+   git clone <your-repo-url>
+```
 
-# Install dependencies
-npm install
-# or
-yarn install
+2. Navigate into the project folder:
+```bash
+   cd task-manager-app
+```
 
-# Start the app in development mode
-npm run start
-# or
-yarn start
+3. Install dependencies:
+```bash
+   npm install
+```
+
+4. Run the development server:
+```bash
+   npm start
+```
+
+5. Open your browser and go to:
+```
+   http://localhost:3000
+```
+
+---
+
+## 📅 Tech Stack & Tools
+- **React** (with hooks)
+- **TypeScript**
+- **Tailwind CSS** for styling
+- **react-hot-toast** for toast notifications
+- **framer-motion** for animations
+- **localStorage** for persistent data
+
+---
+
+## 💡 Notes
+- Dark/Light mode switcher is available (with animated sun/moon icons).
+- Fully responsive UI.
+- Deployed using **Vercel**.
+
+---
+
+Thanks for checking out the project! 🚀
+
+Feel free to contribute or suggest improvements!
+
