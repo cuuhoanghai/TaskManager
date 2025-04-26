@@ -11,7 +11,7 @@ const TaskInput = () => {
         e.preventDefault();
         if(!input.trim()) return;
         addTask(input.trim());
-        setInput(" ");
+        setInput("");
     };
 
     return (
